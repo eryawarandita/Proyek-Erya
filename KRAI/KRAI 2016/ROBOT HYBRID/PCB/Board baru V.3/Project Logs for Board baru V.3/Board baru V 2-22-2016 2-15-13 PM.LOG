@@ -1,0 +1,309 @@
+Added Component: Designator=5V(HDR2X5)
+Added Component: Designator=7805(78XX/79XX diri)
+Added Component: Designator=7809(78XX/79XX)
+Added Component: Designator=Button Sensor(pushbutton)
+Added Component: Designator=C1(cap 10uF/16V)
+Added Component: Designator=C2(cap 10uF/16V)
+Added Component: Designator=c5V1(cap 220uF/16V)
+Added Component: Designator=c5V(cap 220uF/16V)
+Added Component: Designator=C9V1(cap 1uF/50V)
+Added Component: Designator=c9V(cap 1uF/50V)
+Added Component: Designator=C Button Sensor(cap MKM 100nF diri)
+Added Component: Designator=CN7(HDR2X19)
+Added Component: Designator=CN10(HDR2X19)
+Added Component: Designator=D1(DO-201AD)
+Added Component: Designator=DAYA SENSOR(HDR2X5)
+Added Component: Designator=F1(AXIAL-0.8)
+Added Component: Designator=JOYSTICK(HDR2X5)
+Added Component: Designator=LCD(HDR2X5)
+Added Component: Designator=LED5V(LED sedang)
+Added Component: Designator=LED9V(LED sedang)
+Added Component: Designator=Limit Switch(HDR2X5)
+Added Component: Designator=LM117(78XX/79XX)
+Added Component: Designator=Motor1(HDR2X5)
+Added Component: Designator=Motor2(HDR2X5)
+Added Component: Designator=MOTOR3(HDR2X5)
+Added Component: Designator=POWER WINDOW(HDR2X5)
+Added Component: Designator=Reset1(pushbutton)
+Added Component: Designator=Resistor Reset(AXIAL-0.3)
+Added Component: Designator=Resistor Reset(AXIAL-0.3)
+Added Component: Designator=Resistor Reset(AXIAL-0.3)
+Added Component: Designator=Resistor Reset(AXIAL-0.3)
+Added Component: Designator=Resistor Reset(AXIAL-0.3)
+Added Component: Designator=RLED2(AXIAL-0.3)
+Added Component: Designator=RLED(AXIAL-0.3)
+Added Component: Designator=ROTARY ENCODER(HDR1X4)
+Added Component: Designator=SENSOR(HDR2X5)
+Added Component: Designator=Terminal 8 kaki 1(TERMINAL 8 KAKI)
+Added Pin To Net: NetName=3.3V Pin=CN7-5
+Added Net: Name=3.3V
+Added Pin To Net: NetName=3V3 Pin=CN7-16
+Added Net: Name=3V3
+Added Pin To Net: NetName=5V Pin=CN7-18
+Added Net: Name=5V
+Added Pin To Net: NetName=AGND Pin=CN10-32
+Added Net: Name=AGND
+Added Pin To Net: NetName=AVDD Pin=CN10-7
+Added Net: Name=AVDD
+Added Pin To Net: NetName=BOOT0 Pin=CN7-7
+Added Net: Name=BOOT0
+Added Pin To Net: NetName=E5V Pin=CN7-6
+Added Net: Name=E5V
+Added Pin To Net: NetName=FUSE2 Pin=F1-1
+Added Pin To Net: NetName=FUSE2 Pin=Terminal 8 kaki 1-1
+Added Pin To Net: NetName=FUSE2 Pin=Terminal 8 kaki 1-3
+Added Net: Name=FUSE2
+Added Pin To Net: NetName=GND Pin=5V-1
+Added Pin To Net: NetName=GND Pin=5V-3
+Added Pin To Net: NetName=GND Pin=5V-5
+Added Pin To Net: NetName=GND Pin=5V-7
+Added Pin To Net: NetName=GND Pin=5V-9
+Added Pin To Net: NetName=GND Pin=7805-2
+Added Pin To Net: NetName=GND Pin=7809-2
+Added Pin To Net: NetName=GND Pin=Button Sensor-2
+Added Pin To Net: NetName=GND Pin=Button Sensor-2
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=c5V1-2
+Added Pin To Net: NetName=GND Pin=c5V-2
+Added Pin To Net: NetName=GND Pin=C9V1-2
+Added Pin To Net: NetName=GND Pin=c9V-2
+Added Pin To Net: NetName=GND Pin=C Button Sensor-2
+Added Pin To Net: NetName=GND Pin=CN7-8
+Added Pin To Net: NetName=GND Pin=CN7-19
+Added Pin To Net: NetName=GND Pin=CN7-20
+Added Pin To Net: NetName=GND Pin=CN7-22
+Added Pin To Net: NetName=GND Pin=CN10-9
+Added Pin To Net: NetName=GND Pin=CN10-20
+Added Pin To Net: NetName=GND Pin=DAYA SENSOR-1
+Added Pin To Net: NetName=GND Pin=JOYSTICK-10
+Added Pin To Net: NetName=GND Pin=LCD-10
+Added Pin To Net: NetName=GND Pin=LED5V-2
+Added Pin To Net: NetName=GND Pin=LED9V-2
+Added Pin To Net: NetName=GND Pin=Limit Switch-10
+Added Pin To Net: NetName=GND Pin=LM117-1
+Added Pin To Net: NetName=GND Pin=Motor1-10
+Added Pin To Net: NetName=GND Pin=Motor2-10
+Added Pin To Net: NetName=GND Pin=MOTOR3-10
+Added Pin To Net: NetName=GND Pin=POWER WINDOW-10
+Added Pin To Net: NetName=GND Pin=Reset1-2
+Added Pin To Net: NetName=GND Pin=Reset1-2
+Added Pin To Net: NetName=GND Pin=ROTARY ENCODER-2
+Added Pin To Net: NetName=GND Pin=Terminal 8 kaki 1-2
+Added Pin To Net: NetName=GND Pin=Terminal 8 kaki 1-4
+Added Pin To Net: NetName=GND Pin=Terminal 8 kaki 1-6
+Added Pin To Net: NetName=GND Pin=Terminal 8 kaki 1-8
+Added Net: Name=GND
+Added Pin To Net: NetName=IOREF Pin=CN7-12
+Added Net: Name=IOREF
+Added Pin To Net: NetName=Net7809_1 Pin=7809-1
+Added Pin To Net: NetName=Net7809_1 Pin=c9V-1
+Added Pin To Net: NetName=Net7809_1 Pin=D1-2
+Added Net: Name=Net7809_1
+Added Pin To Net: NetName=NetLED5V_1 Pin=LED5V-1
+Added Pin To Net: NetName=NetLED5V_1 Pin=RLED-1
+Added Net: Name=NetLED5V_1
+Added Pin To Net: NetName=NetLED9V_1 Pin=LED9V-1
+Added Pin To Net: NetName=NetLED9V_1 Pin=RLED2-1
+Added Net: Name=NetLED9V_1
+Added Pin To Net: NetName=NetLimit Switch_2 Pin=Limit Switch-2
+Added Pin To Net: NetName=NetLimit Switch_2 Pin=Resistor Reset-1
+Added Net: Name=NetLimit Switch_2
+Added Pin To Net: NetName=PA_0 Pin=CN7-28
+Added Pin To Net: NetName=PA_0 Pin=DAYA SENSOR-7
+Added Net: Name=PA_0
+Added Pin To Net: NetName=PA_1 Pin=CN7-30
+Added Pin To Net: NetName=PA_1 Pin=SENSOR-1
+Added Net: Name=PA_1
+Added Pin To Net: NetName=PA_2 Pin=CN10-35
+Added Net: Name=PA_2
+Added Pin To Net: NetName=PA_3 Pin=CN10-37
+Added Net: Name=PA_3
+Added Pin To Net: NetName=PA_4 Pin=CN7-32
+Added Pin To Net: NetName=PA_4 Pin=SENSOR-2
+Added Net: Name=PA_4
+Added Pin To Net: NetName=PA_5 Pin=CN10-11
+Added Pin To Net: NetName=PA_5 Pin=LCD-1
+Added Net: Name=PA_5
+Added Pin To Net: NetName=PA_6 Pin=CN10-13
+Added Pin To Net: NetName=PA_6 Pin=LCD-2
+Added Net: Name=PA_6
+Added Pin To Net: NetName=PA_7 Pin=CN10-15
+Added Pin To Net: NetName=PA_7 Pin=LCD-3
+Added Net: Name=PA_7
+Added Pin To Net: NetName=PA_8 Pin=CN10-23
+Added Pin To Net: NetName=PA_8 Pin=Motor1-6
+Added Net: Name=PA_8
+Added Pin To Net: NetName=PA_9 Pin=CN10-21
+Added Pin To Net: NetName=PA_9 Pin=Motor1-2
+Added Net: Name=PA_9
+Added Pin To Net: NetName=PA_10 Pin=CN10-33
+Added Pin To Net: NetName=PA_10 Pin=SENSOR-6
+Added Net: Name=PA_10
+Added Pin To Net: NetName=PA_11 Pin=CN10-14
+Added Pin To Net: NetName=PA_11 Pin=SENSOR-7
+Added Net: Name=PA_11
+Added Pin To Net: NetName=PA_12 Pin=CN10-12
+Added Pin To Net: NetName=PA_12 Pin=SENSOR-8
+Added Net: Name=PA_12
+Added Pin To Net: NetName=PA_13 Pin=CN7-13
+Added Pin To Net: NetName=PA_13 Pin=Limit Switch-3
+Added Pin To Net: NetName=PA_13 Pin=Resistor Reset-1
+Added Net: Name=PA_13
+Added Pin To Net: NetName=PA_14 Pin=CN7-15
+Added Pin To Net: NetName=PA_14 Pin=Limit Switch-4
+Added Pin To Net: NetName=PA_14 Pin=Resistor Reset-1
+Added Net: Name=PA_14
+Added Pin To Net: NetName=PA_15 Pin=CN7-17
+Added Pin To Net: NetName=PA_15 Pin=SENSOR-9
+Added Net: Name=PA_15
+Added Pin To Net: NetName=PB_0 Pin=CN7-34
+Added Pin To Net: NetName=PB_0 Pin=SENSOR-3
+Added Net: Name=PB_0
+Added Pin To Net: NetName=PB_1 Pin=CN10-24
+Added Pin To Net: NetName=PB_1 Pin=LCD-6
+Added Net: Name=PB_1
+Added Pin To Net: NetName=PB_2 Pin=CN10-22
+Added Pin To Net: NetName=PB_2 Pin=SENSOR-4
+Added Net: Name=PB_2
+Added Pin To Net: NetName=PB_3 Pin=CN10-31
+Added Pin To Net: NetName=PB_3 Pin=Motor2-6
+Added Net: Name=PB_3
+Added Pin To Net: NetName=PB_4 Pin=CN10-27
+Added Pin To Net: NetName=PB_4 Pin=Motor2-1
+Added Net: Name=PB_4
+Added Pin To Net: NetName=PB_5 Pin=CN10-29
+Added Pin To Net: NetName=PB_5 Pin=Motor2-2
+Added Net: Name=PB_5
+Added Pin To Net: NetName=PB_6 Pin=CN10-17
+Added Pin To Net: NetName=PB_6 Pin=POWER WINDOW-6
+Added Net: Name=PB_6
+Added Pin To Net: NetName=PB_7 Pin=CN7-21
+Added Net: Name=PB_7
+Added Pin To Net: NetName=PB_8 Pin=CN10-3
+Added Pin To Net: NetName=PB_8 Pin=POWER WINDOW-1
+Added Net: Name=PB_8
+Added Pin To Net: NetName=PB_9 Pin=CN10-5
+Added Pin To Net: NetName=PB_9 Pin=POWER WINDOW-2
+Added Net: Name=PB_9
+Added Pin To Net: NetName=PB_10 Pin=CN10-25
+Added Pin To Net: NetName=PB_10 Pin=SENSOR-5
+Added Net: Name=PB_10
+Added Pin To Net: NetName=PB_12 Pin=CN10-16
+Added Pin To Net: NetName=PB_12 Pin=JOYSTICK-3
+Added Net: Name=PB_12
+Added Pin To Net: NetName=PB_13 Pin=CN10-30
+Added Pin To Net: NetName=PB_13 Pin=JOYSTICK-7
+Added Net: Name=PB_13
+Added Pin To Net: NetName=PB_14 Pin=CN10-28
+Added Pin To Net: NetName=PB_14 Pin=JOYSTICK-9
+Added Net: Name=PB_14
+Added Pin To Net: NetName=PB_15 Pin=CN10-26
+Added Pin To Net: NetName=PB_15 Pin=JOYSTICK-1
+Added Net: Name=PB_15
+Added Pin To Net: NetName=PC_0 Pin=CN7-38
+Added Pin To Net: NetName=PC_0 Pin=DAYA SENSOR-3
+Added Net: Name=PC_0
+Added Pin To Net: NetName=PC_1 Pin=CN7-36
+Added Pin To Net: NetName=PC_1 Pin=DAYA SENSOR-4
+Added Net: Name=PC_1
+Added Pin To Net: NetName=PC_2 Pin=CN7-35
+Added Pin To Net: NetName=PC_2 Pin=DAYA SENSOR-5
+Added Net: Name=PC_2
+Added Pin To Net: NetName=PC_3 Pin=CN7-37
+Added Pin To Net: NetName=PC_3 Pin=DAYA SENSOR-6
+Added Net: Name=PC_3
+Added Pin To Net: NetName=PC_4 Pin=CN10-34
+Added Pin To Net: NetName=PC_4 Pin=LCD-4
+Added Net: Name=PC_4
+Added Pin To Net: NetName=PC_5 Pin=CN10-6
+Added Pin To Net: NetName=PC_5 Pin=LCD-5
+Added Net: Name=PC_5
+Added Pin To Net: NetName=PC_6 Pin=CN10-4
+Added Pin To Net: NetName=PC_6 Pin=MOTOR3-6
+Added Net: Name=PC_6
+Added Pin To Net: NetName=PC_7 Pin=CN10-19
+Added Pin To Net: NetName=PC_7 Pin=Motor1-1
+Added Net: Name=PC_7
+Added Pin To Net: NetName=PC_8 Pin=CN10-2
+Added Pin To Net: NetName=PC_8 Pin=MOTOR3-1
+Added Net: Name=PC_8
+Added Pin To Net: NetName=PC_9 Pin=CN10-1
+Added Pin To Net: NetName=PC_9 Pin=MOTOR3-2
+Added Net: Name=PC_9
+Added Pin To Net: NetName=PC_10 Pin=CN7-1
+Added Net: Name=PC_10
+Added Pin To Net: NetName=PC_11 Pin=CN7-2
+Added Net: Name=PC_11
+Added Pin To Net: NetName=PC_12 Pin=CN7-3
+Added Pin To Net: NetName=PC_12 Pin=Limit Switch-1
+Added Pin To Net: NetName=PC_12 Pin=Resistor Reset-1
+Added Net: Name=PC_12
+Added Pin To Net: NetName=PC_13 Pin=CN7-23
+Added Net: Name=PC_13
+Added Pin To Net: NetName=PC_14 Pin=Button Sensor-1
+Added Pin To Net: NetName=PC_14 Pin=Button Sensor-1
+Added Pin To Net: NetName=PC_14 Pin=C Button Sensor-1
+Added Pin To Net: NetName=PC_14 Pin=CN7-25
+Added Pin To Net: NetName=PC_14 Pin=Resistor Reset-1
+Added Net: Name=PC_14
+Added Pin To Net: NetName=PC_15 Pin=CN7-27
+Added Net: Name=PC_15
+Added Pin To Net: NetName=PD_2 Pin=CN7-4
+Added Net: Name=PD_2
+Added Pin To Net: NetName=PH_0 Pin=CN7-29
+Added Pin To Net: NetName=PH_0 Pin=ROTARY ENCODER-3
+Added Net: Name=PH_0
+Added Pin To Net: NetName=PH_1 Pin=CN7-31
+Added Pin To Net: NetName=PH_1 Pin=ROTARY ENCODER-4
+Added Net: Name=PH_1
+Added Pin To Net: NetName=RESET Pin=CN7-14
+Added Pin To Net: NetName=RESET Pin=Reset1-1
+Added Pin To Net: NetName=RESET Pin=Reset1-1
+Added Net: Name=RESET
+Added Pin To Net: NetName=U5V Pin=CN10-8
+Added Net: Name=U5V
+Added Pin To Net: NetName=V3.3 Pin=C2-1
+Added Pin To Net: NetName=V3.3 Pin=LM117-2
+Added Pin To Net: NetName=V3.3 Pin=Resistor Reset-2
+Added Pin To Net: NetName=V3.3 Pin=Resistor Reset-2
+Added Pin To Net: NetName=V3.3 Pin=Resistor Reset-2
+Added Pin To Net: NetName=V3.3 Pin=Resistor Reset-2
+Added Pin To Net: NetName=V3.3 Pin=Resistor Reset-2
+Added Net: Name=V3.3
+Added Pin To Net: NetName=VBAT Pin=CN7-33
+Added Net: Name=VBAT
+Added Pin To Net: NetName=VCC Pin=5V-2
+Added Pin To Net: NetName=VCC Pin=5V-4
+Added Pin To Net: NetName=VCC Pin=5V-6
+Added Pin To Net: NetName=VCC Pin=5V-8
+Added Pin To Net: NetName=VCC Pin=5V-10
+Added Pin To Net: NetName=VCC Pin=7805-3
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=VCC Pin=c5V1-1
+Added Pin To Net: NetName=VCC Pin=DAYA SENSOR-2
+Added Pin To Net: NetName=VCC Pin=JOYSTICK-2
+Added Pin To Net: NetName=VCC Pin=LCD-9
+Added Pin To Net: NetName=VCC Pin=Limit Switch-9
+Added Pin To Net: NetName=VCC Pin=LM117-3
+Added Pin To Net: NetName=VCC Pin=Motor1-9
+Added Pin To Net: NetName=VCC Pin=Motor2-9
+Added Pin To Net: NetName=VCC Pin=MOTOR3-9
+Added Pin To Net: NetName=VCC Pin=POWER WINDOW-9
+Added Pin To Net: NetName=VCC Pin=RLED-2
+Added Pin To Net: NetName=VCC Pin=ROTARY ENCODER-1
+Added Pin To Net: NetName=VCC Pin=Terminal 8 kaki 1-5
+Added Net: Name=VCC
+Added Pin To Net: NetName=VIN12 Pin=D1-1
+Added Pin To Net: NetName=VIN12 Pin=F1-2
+Added Net: Name=VIN12
+Added Pin To Net: NetName=VIN Pin=7805-1
+Added Pin To Net: NetName=VIN Pin=7809-3
+Added Pin To Net: NetName=VIN Pin=c5V-1
+Added Pin To Net: NetName=VIN Pin=C9V1-1
+Added Pin To Net: NetName=VIN Pin=CN7-24
+Added Pin To Net: NetName=VIN Pin=RLED2-2
+Added Pin To Net: NetName=VIN Pin=Terminal 8 kaki 1-7
+Added Net: Name=VIN
+Added Class: Name=Board baru V.3
+Added Room: Name=Board baru V.3

@@ -1,0 +1,200 @@
+Added Component: Designator=5V(LED kecil)
+Added Component: Designator=100nF(RESC2013X65N)
+Added Component: Designator=100nF(RESC2013X65N)
+Added Component: Designator=100nF(RESC2013X65N)
+Added Component: Designator=300nF(RESC2013X65N)
+Added Component: Designator=300nF(RESC2013X65N)
+Added Component: Designator=300nF(RESC2013X65N)
+Added Component: Designator=7805(78XX/79XX)
+Added Component: Designator=7809(78XX/79XX)
+Added Component: Designator=7812(78XX/79XX)
+Added Component: Designator=BT(HDR1X6)
+Added Component: Designator=C1nF(RESC2013X65N)
+Added Component: Designator=C1uF(RESC2013X65N)
+Added Component: Designator=CA3140(DIP254P762X533-8)
+Added Component: Designator=Cf(RESC2013X65N)
+Added Component: Designator=EVin(LED kecil)
+Added Component: Designator=L(HDR1X20)
+Added Component: Designator=MPXV7002DP(SOP8_MPXV7002(Primary))
+Added Component: Designator=MT3608-In(HDR1X2)
+Added Component: Designator=Offset NULL(Trimpot Duduk)
+Added Component: Designator=R5V(AXIAL-0.3)
+Added Component: Designator=R6K8(RESC2013X65N)
+Added Component: Designator=R10K(RESC2013X65N)
+Added Component: Designator=R200(RESC2013X65N)
+Added Component: Designator=Ra(RESC2013X65N)
+Added Component: Designator=REVin(AXIAL-0.3)
+Added Component: Designator=Rf(RESC2013X65N)
+Added Component: Designator=Rin(RESC2013X65N)
+Added Component: Designator=R(HDR1X20)
+Added Component: Designator=RVin(AXIAL-0.3)
+Added Component: Designator=UVin(LED kecil)
+Added Component: Designator=V-(Trimpot Duduk)
+Added Component: Designator=Vin(HDR1X3)
+Added Pin To Net: NetName=3V3 Pin=L-1
+Added Pin To Net: NetName=3V3 Pin=R-1
+Added Pin To Net: NetName=3V3 Pin=RVin-2
+Added Net: Name=3V3
+Added Pin To Net: NetName=5V Pin=7805-3
+Added Pin To Net: NetName=5V Pin=BT-5
+Added Pin To Net: NetName=5V Pin=C1nF-1
+Added Pin To Net: NetName=5V Pin=C1uF-1
+Added Pin To Net: NetName=5V Pin=R5V-2
+Added Pin To Net: NetName=5V Pin=V--1
+Added Net: Name=5V
+Added Pin To Net: NetName=BATERAI+ Pin=300nF-1
+Added Pin To Net: NetName=BATERAI+ Pin=7812-1
+Added Pin To Net: NetName=BATERAI+ Pin=MT3608-In-1
+Added Net: Name=BATERAI+
+Added Pin To Net: NetName=EN Pin=BT-6
+Added Net: Name=EN
+Added Pin To Net: NetName=GND Pin=5V-2
+Added Pin To Net: NetName=GND Pin=100nF-2
+Added Pin To Net: NetName=GND Pin=100nF-2
+Added Pin To Net: NetName=GND Pin=100nF-2
+Added Pin To Net: NetName=GND Pin=300nF-2
+Added Pin To Net: NetName=GND Pin=300nF-2
+Added Pin To Net: NetName=GND Pin=300nF-2
+Added Pin To Net: NetName=GND Pin=7805-2
+Added Pin To Net: NetName=GND Pin=7809-2
+Added Pin To Net: NetName=GND Pin=7812-2
+Added Pin To Net: NetName=GND Pin=BT-4
+Added Pin To Net: NetName=GND Pin=C1nF-2
+Added Pin To Net: NetName=GND Pin=C1uF-2
+Added Pin To Net: NetName=GND Pin=CA3140-4
+Added Pin To Net: NetName=GND Pin=Cf-2
+Added Pin To Net: NetName=GND Pin=EVin-2
+Added Pin To Net: NetName=GND Pin=L-2
+Added Pin To Net: NetName=GND Pin=MT3608-In-2
+Added Pin To Net: NetName=GND Pin=Offset NULL-2
+Added Pin To Net: NetName=GND Pin=R200-2
+Added Pin To Net: NetName=GND Pin=R-2
+Added Pin To Net: NetName=GND Pin=UVin-2
+Added Pin To Net: NetName=GND Pin=V--3
+Added Net: Name=GND
+Added Pin To Net: NetName=Net5V_1 Pin=5V-1
+Added Pin To Net: NetName=Net5V_1 Pin=R5V-1
+Added Net: Name=Net5V_1
+Added Pin To Net: NetName=NetCA3140_3 Pin=CA3140-3
+Added Pin To Net: NetName=NetCA3140_3 Pin=R6K8-1
+Added Pin To Net: NetName=NetCA3140_3 Pin=R10K-2
+Added Net: Name=NetCA3140_3
+Added Pin To Net: NetName=NetEVin_1 Pin=EVin-1
+Added Pin To Net: NetName=NetEVin_1 Pin=REVin-1
+Added Net: Name=NetEVin_1
+Added Pin To Net: NetName=NetR6K8_2 Pin=R6K8-2
+Added Pin To Net: NetName=NetR6K8_2 Pin=R200-1
+Added Net: Name=NetR6K8_2
+Added Pin To Net: NetName=NetRin_2 Pin=Rin-2
+Added Pin To Net: NetName=NetRin_2 Pin=V--2
+Added Net: Name=NetRin_2
+Added Pin To Net: NetName=NetRVin_1 Pin=RVin-1
+Added Pin To Net: NetName=NetRVin_1 Pin=UVin-1
+Added Net: Name=NetRVin_1
+Added Pin To Net: NetName=OFFSET1 Pin=Offset NULL-1
+Added Net: Name=OFFSET1
+Added Pin To Net: NetName=OFFSET2 Pin=CA3140-5
+Added Pin To Net: NetName=OFFSET2 Pin=Offset NULL-3
+Added Net: Name=OFFSET2
+Added Pin To Net: NetName=OUT9 Pin=100nF-1
+Added Pin To Net: NetName=OUT9 Pin=300nF-1
+Added Pin To Net: NetName=OUT9 Pin=7805-1
+Added Pin To Net: NetName=OUT9 Pin=7809-3
+Added Pin To Net: NetName=OUT9 Pin=REVin-2
+Added Pin To Net: NetName=OUT9 Pin=Vin-3
+Added Net: Name=OUT9
+Added Pin To Net: NetName=OUT12 Pin=300nF-1
+Added Pin To Net: NetName=OUT12 Pin=7809-1
+Added Pin To Net: NetName=OUT12 Pin=7812-3
+Added Pin To Net: NetName=OUT12 Pin=CA3140-7
+Added Net: Name=OUT12
+Added Pin To Net: NetName=OUT Pin=Rf-2
+Added Net: Name=OUT
+Added Pin To Net: NetName=PA0 Pin=R-8
+Added Net: Name=PA0
+Added Pin To Net: NetName=PA1 Pin=R-9
+Added Net: Name=PA1
+Added Pin To Net: NetName=PA2 Pin=R-10
+Added Net: Name=PA2
+Added Pin To Net: NetName=PA3 Pin=R-11
+Added Net: Name=PA3
+Added Pin To Net: NetName=PA4 Pin=R-12
+Added Net: Name=PA4
+Added Pin To Net: NetName=PA5 Pin=R-13
+Added Net: Name=PA5
+Added Pin To Net: NetName=PA6 Pin=R-14
+Added Net: Name=PA6
+Added Pin To Net: NetName=PA7 Pin=R-15
+Added Net: Name=PA7
+Added Pin To Net: NetName=PA8 Pin=L-16
+Added Net: Name=PA8
+Added Pin To Net: NetName=PA9 Pin=BT-2
+Added Pin To Net: NetName=PA9 Pin=L-15
+Added Net: Name=PA9
+Added Pin To Net: NetName=PA10 Pin=BT-3
+Added Pin To Net: NetName=PA10 Pin=L-14
+Added Net: Name=PA10
+Added Pin To Net: NetName=PA11 Pin=L-13
+Added Net: Name=PA11
+Added Pin To Net: NetName=PA12 Pin=L-12
+Added Net: Name=PA12
+Added Pin To Net: NetName=PA13 Pin=L-11
+Added Net: Name=PA13
+Added Pin To Net: NetName=PA14 Pin=L-10
+Added Net: Name=PA14
+Added Pin To Net: NetName=PA15 Pin=L-9
+Added Net: Name=PA15
+Added Pin To Net: NetName=PB0 Pin=CA3140-6
+Added Pin To Net: NetName=PB0 Pin=R-16
+Added Pin To Net: NetName=PB0 Pin=Ra-2
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB2 Pin=R-17
+Added Net: Name=PB2
+Added Pin To Net: NetName=PB3 Pin=L-8
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=L-7
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB5 Pin=L-6
+Added Net: Name=PB5
+Added Pin To Net: NetName=PB6 Pin=L-5
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB7 Pin=L-4
+Added Net: Name=PB7
+Added Pin To Net: NetName=PB8 Pin=L-3
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB10 Pin=R-18
+Added Net: Name=PB10
+Added Pin To Net: NetName=PB11 Pin=R-19
+Added Net: Name=PB11
+Added Pin To Net: NetName=PB12 Pin=L-20
+Added Net: Name=PB12
+Added Pin To Net: NetName=PB13 Pin=L-19
+Added Net: Name=PB13
+Added Pin To Net: NetName=PB14 Pin=L-18
+Added Net: Name=PB14
+Added Pin To Net: NetName=PB15 Pin=L-17
+Added Net: Name=PB15
+Added Pin To Net: NetName=PC13 Pin=R-4
+Added Net: Name=PC13
+Added Pin To Net: NetName=PC14 Pin=R-5
+Added Net: Name=PC14
+Added Pin To Net: NetName=PC15 Pin=R-6
+Added Net: Name=PC15
+Added Pin To Net: NetName=RESET Pin=R-7
+Added Net: Name=RESET
+Added Pin To Net: NetName=SENSOR Pin=Cf-1
+Added Pin To Net: NetName=SENSOR Pin=R10K-1
+Added Net: Name=SENSOR
+Added Pin To Net: NetName=STATE Pin=BT-1
+Added Net: Name=STATE
+Added Pin To Net: NetName=V- Pin=CA3140-2
+Added Pin To Net: NetName=V- Pin=Ra-1
+Added Pin To Net: NetName=V- Pin=Rin-1
+Added Net: Name=V-
+Added Pin To Net: NetName=VBAT Pin=R-3
+Added Net: Name=VBAT
+Added Pin To Net: NetName=VIN Pin=R-20
+Added Pin To Net: NetName=VIN Pin=Vin-2
+Added Net: Name=VIN
+Added Class: Name=Main Board Rev2
+Added Room: Name=Main Board Rev2

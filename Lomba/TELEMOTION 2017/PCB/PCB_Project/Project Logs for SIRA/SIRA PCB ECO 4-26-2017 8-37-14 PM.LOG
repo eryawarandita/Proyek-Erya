@@ -1,0 +1,337 @@
+Added Component: Designator=7805(78XX/79XX diri)
+Added Component: Designator=7809(78XX/79XX diri)
+Added Component: Designator=AD_H(Header 8x1 8.5mm)
+Added Component: Designator=AD_L(Header 8x1 8.5mm)
+Added Component: Designator=Buz1(ABSM-1574)
+Added Component: Designator=C05_1(cap 1uF/50V)
+Added Component: Designator=C05_2(cap 1uF/50V)
+Added Component: Designator=C09_1(cap 1uF/50V)
+Added Component: Designator=C09_2(cap 1uF/50V)
+Added Component: Designator=C_rest(cap 22/33uF)
+Added Component: Designator=COMMS(Header 8x1 8.5mm)
+Added Component: Designator=DIGITAL(HEADER 36X 8MM)
+Added Component: Designator=ICSP(ICSP)
+Added Component: Designator=Keypad(HDR2X5)
+Added Component: Designator=LCD(HDR2X5)
+Added Component: Designator=LED1(LED kecil)
+Added Component: Designator=LED2(LED kecil)
+Added Component: Designator=LED3(LED kecil)
+Added Component: Designator=optocoupler1(DIP-4)
+Added Component: Designator=optocoupler2(DIP-4)
+Added Component: Designator=optocoupler3(DIP-4)
+Added Component: Designator=POWER(Header 6x1 8.5mm)
+Added Component: Designator=PWM_H(Header 8x1 8.5mm)
+Added Component: Designator=PWM_L(Header 8x1 8.5mm)
+Added Component: Designator=Q1(TO-220AB)
+Added Component: Designator=Q2(TO-220AB)
+Added Component: Designator=Q3(TO-220AB)
+Added Component: Designator=R1b(AXIAL-0.3)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R2b(AXIAL-0.3)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R3b(AXIAL-0.3)
+Added Component: Designator=R3(AXIAL-0.3)
+Added Component: Designator=RN1(AXIAL-0.3)
+Added Component: Designator=RN2(AXIAL-0.3)
+Added Component: Designator=RN3(AXIAL-0.3)
+Added Component: Designator=S1(pushbutton)
+Added Component: Designator=SENSOR1(HDR1X3)
+Added Component: Designator=SENSOR 2(HDR1X3)
+Added Component: Designator=SENSOR 3(HDR1X3)
+Added Component: Designator=Terminal 8 kaki 1(TERMINAL 8 KAKI)
+Added Pin To Net: NetName=3V3 Pin=POWER-5
+Added Net: Name=3V3
+Added Pin To Net: NetName=5V Pin=DIGITAL-1
+Added Pin To Net: NetName=5V Pin=DIGITAL-2
+Added Pin To Net: NetName=5V Pin=ICSP-2
+Added Pin To Net: NetName=5V Pin=POWER-4
+Added Net: Name=5V
+Added Pin To Net: NetName=AD0 Pin=AD_L-1
+Added Net: Name=AD0
+Added Pin To Net: NetName=AD1 Pin=AD_L-2
+Added Net: Name=AD1
+Added Pin To Net: NetName=AD2 Pin=AD_L-3
+Added Net: Name=AD2
+Added Pin To Net: NetName=AD3 Pin=AD_L-4
+Added Net: Name=AD3
+Added Pin To Net: NetName=AD4 Pin=AD_L-5
+Added Net: Name=AD4
+Added Pin To Net: NetName=AD5 Pin=AD_L-6
+Added Net: Name=AD5
+Added Pin To Net: NetName=AD6 Pin=AD_L-7
+Added Net: Name=AD6
+Added Pin To Net: NetName=AD7 Pin=AD_L-8
+Added Net: Name=AD7
+Added Pin To Net: NetName=AD8 Pin=AD_H-1
+Added Net: Name=AD8
+Added Pin To Net: NetName=AD9 Pin=AD_H-2
+Added Net: Name=AD9
+Added Pin To Net: NetName=AD10 Pin=AD_H-3
+Added Net: Name=AD10
+Added Pin To Net: NetName=AD11 Pin=AD_H-4
+Added Net: Name=AD11
+Added Pin To Net: NetName=AD12 Pin=AD_H-5
+Added Net: Name=AD12
+Added Pin To Net: NetName=AD13 Pin=AD_H-6
+Added Net: Name=AD13
+Added Pin To Net: NetName=AD14 Pin=AD_H-7
+Added Net: Name=AD14
+Added Pin To Net: NetName=AD15 Pin=AD_H-8
+Added Net: Name=AD15
+Added Pin To Net: NetName=AREF Pin=PWM_H-8
+Added Net: Name=AREF
+Added Pin To Net: NetName=GND2 Pin=optocoupler1-3
+Added Pin To Net: NetName=GND2 Pin=optocoupler2-3
+Added Pin To Net: NetName=GND2 Pin=optocoupler3-3
+Added Pin To Net: NetName=GND2 Pin=Q1-3
+Added Pin To Net: NetName=GND2 Pin=Q2-3
+Added Pin To Net: NetName=GND2 Pin=Q3-3
+Added Net: Name=GND2
+Added Pin To Net: NetName=GND Pin=7805-2
+Added Pin To Net: NetName=GND Pin=7809-2
+Added Pin To Net: NetName=GND Pin=Buz1-1
+Added Pin To Net: NetName=GND Pin=Buz1-1A
+Added Pin To Net: NetName=GND Pin=C05_1-2
+Added Pin To Net: NetName=GND Pin=C05_2-2
+Added Pin To Net: NetName=GND Pin=C09_1-2
+Added Pin To Net: NetName=GND Pin=C09_2-2
+Added Pin To Net: NetName=GND Pin=C_rest-1
+Added Pin To Net: NetName=GND Pin=DIGITAL-35
+Added Pin To Net: NetName=GND Pin=DIGITAL-36
+Added Pin To Net: NetName=GND Pin=ICSP-6
+Added Pin To Net: NetName=GND Pin=Keypad-10
+Added Pin To Net: NetName=GND Pin=LCD-10
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=LED3-2
+Added Pin To Net: NetName=GND Pin=optocoupler1-2
+Added Pin To Net: NetName=GND Pin=optocoupler2-2
+Added Pin To Net: NetName=GND Pin=optocoupler3-2
+Added Pin To Net: NetName=GND Pin=POWER-2
+Added Pin To Net: NetName=GND Pin=POWER-3
+Added Pin To Net: NetName=GND Pin=PWM_H-7
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=SENSOR1-3
+Added Pin To Net: NetName=GND Pin=SENSOR 2-3
+Added Pin To Net: NetName=GND Pin=SENSOR 3-3
+Added Pin To Net: NetName=GND Pin=Terminal 8 kaki 1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=IO22 Pin=DIGITAL-3
+Added Net: Name=IO22
+Added Pin To Net: NetName=IO23 Pin=DIGITAL-4
+Added Net: Name=IO23
+Added Pin To Net: NetName=IO24 Pin=DIGITAL-5
+Added Net: Name=IO24
+Added Pin To Net: NetName=IO25 Pin=DIGITAL-6
+Added Net: Name=IO25
+Added Pin To Net: NetName=IO26 Pin=DIGITAL-7
+Added Net: Name=IO26
+Added Pin To Net: NetName=IO27 Pin=DIGITAL-8
+Added Net: Name=IO27
+Added Pin To Net: NetName=IO28 Pin=DIGITAL-9
+Added Net: Name=IO28
+Added Pin To Net: NetName=IO29 Pin=DIGITAL-10
+Added Net: Name=IO29
+Added Pin To Net: NetName=IO30 Pin=DIGITAL-11
+Added Net: Name=IO30
+Added Pin To Net: NetName=IO31 Pin=DIGITAL-12
+Added Net: Name=IO31
+Added Pin To Net: NetName=IO32 Pin=DIGITAL-13
+Added Pin To Net: NetName=IO32 Pin=Keypad-1
+Added Net: Name=IO32
+Added Pin To Net: NetName=IO33 Pin=DIGITAL-14
+Added Pin To Net: NetName=IO33 Pin=Keypad-2
+Added Net: Name=IO33
+Added Pin To Net: NetName=IO34 Pin=DIGITAL-15
+Added Pin To Net: NetName=IO34 Pin=Keypad-3
+Added Net: Name=IO34
+Added Pin To Net: NetName=IO35 Pin=DIGITAL-16
+Added Pin To Net: NetName=IO35 Pin=Keypad-4
+Added Net: Name=IO35
+Added Pin To Net: NetName=IO36 Pin=DIGITAL-17
+Added Pin To Net: NetName=IO36 Pin=Keypad-5
+Added Net: Name=IO36
+Added Pin To Net: NetName=IO37 Pin=DIGITAL-18
+Added Pin To Net: NetName=IO37 Pin=Keypad-6
+Added Net: Name=IO37
+Added Pin To Net: NetName=IO38 Pin=DIGITAL-19
+Added Pin To Net: NetName=IO38 Pin=Keypad-7
+Added Net: Name=IO38
+Added Pin To Net: NetName=IO39 Pin=DIGITAL-20
+Added Pin To Net: NetName=IO39 Pin=Keypad-8
+Added Net: Name=IO39
+Added Pin To Net: NetName=IO40 Pin=DIGITAL-21
+Added Net: Name=IO40
+Added Pin To Net: NetName=IO41 Pin=DIGITAL-22
+Added Net: Name=IO41
+Added Pin To Net: NetName=IO42 Pin=DIGITAL-23
+Added Pin To Net: NetName=IO42 Pin=LCD-7
+Added Net: Name=IO42
+Added Pin To Net: NetName=IO43 Pin=DIGITAL-24
+Added Pin To Net: NetName=IO43 Pin=LCD-8
+Added Net: Name=IO43
+Added Pin To Net: NetName=IO44 Pin=DIGITAL-25
+Added Pin To Net: NetName=IO44 Pin=LCD-5
+Added Net: Name=IO44
+Added Pin To Net: NetName=IO45 Pin=DIGITAL-26
+Added Pin To Net: NetName=IO45 Pin=LCD-6
+Added Net: Name=IO45
+Added Pin To Net: NetName=IO46 Pin=DIGITAL-27
+Added Pin To Net: NetName=IO46 Pin=LCD-3
+Added Net: Name=IO46
+Added Pin To Net: NetName=IO47 Pin=DIGITAL-28
+Added Pin To Net: NetName=IO47 Pin=LCD-4
+Added Net: Name=IO47
+Added Pin To Net: NetName=IO48 Pin=DIGITAL-29
+Added Pin To Net: NetName=IO48 Pin=LCD-1
+Added Net: Name=IO48
+Added Pin To Net: NetName=IO49 Pin=DIGITAL-30
+Added Pin To Net: NetName=IO49 Pin=LCD-2
+Added Net: Name=IO49
+Added Pin To Net: NetName=IO50 Pin=DIGITAL-31
+Added Net: Name=IO50
+Added Pin To Net: NetName=IO51 Pin=DIGITAL-32
+Added Pin To Net: NetName=IO51 Pin=R3-1
+Added Pin To Net: NetName=IO51 Pin=R3b-2
+Added Net: Name=IO51
+Added Pin To Net: NetName=IO52 Pin=DIGITAL-33
+Added Pin To Net: NetName=IO52 Pin=R1-1
+Added Pin To Net: NetName=IO52 Pin=R1b-2
+Added Net: Name=IO52
+Added Pin To Net: NetName=IO53 Pin=DIGITAL-34
+Added Pin To Net: NetName=IO53 Pin=R2-1
+Added Pin To Net: NetName=IO53 Pin=R2b-2
+Added Net: Name=IO53
+Added Pin To Net: NetName=MISO Pin=ICSP-1
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=ICSP-4
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R1b-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R2b-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R3b-1
+Added Net: Name=NetLED3_1
+Added Pin To Net: NetName=Netoptocoupler1_1 Pin=optocoupler1-1
+Added Pin To Net: NetName=Netoptocoupler1_1 Pin=R1-2
+Added Net: Name=Netoptocoupler1_1
+Added Pin To Net: NetName=Netoptocoupler2_1 Pin=optocoupler2-1
+Added Pin To Net: NetName=Netoptocoupler2_1 Pin=R2-2
+Added Net: Name=Netoptocoupler2_1
+Added Pin To Net: NetName=Netoptocoupler3_1 Pin=optocoupler3-1
+Added Pin To Net: NetName=Netoptocoupler3_1 Pin=R3-2
+Added Net: Name=Netoptocoupler3_1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=RN1-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=RN2-2
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=RN3-2
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NMOS1 Pin=optocoupler1-4
+Added Pin To Net: NetName=NMOS1 Pin=RN1-1
+Added Net: Name=NMOS1
+Added Pin To Net: NetName=NMOS2 Pin=optocoupler2-4
+Added Pin To Net: NetName=NMOS2 Pin=RN2-1
+Added Net: Name=NMOS2
+Added Pin To Net: NetName=NMOS3 Pin=optocoupler3-4
+Added Pin To Net: NetName=NMOS3 Pin=RN3-1
+Added Net: Name=NMOS3
+Added Pin To Net: NetName=OUT1 Pin=Q1-2
+Added Pin To Net: NetName=OUT1 Pin=Terminal 8 kaki 1-3
+Added Net: Name=OUT1
+Added Pin To Net: NetName=OUT2 Pin=Q2-2
+Added Pin To Net: NetName=OUT2 Pin=Terminal 8 kaki 1-5
+Added Net: Name=OUT2
+Added Pin To Net: NetName=OUT3 Pin=Q3-2
+Added Pin To Net: NetName=OUT3 Pin=Terminal 8 kaki 1-7
+Added Net: Name=OUT3
+Added Pin To Net: NetName=PWM2 Pin=PWM_L-3
+Added Pin To Net: NetName=PWM2 Pin=SENSOR1-2
+Added Net: Name=PWM2
+Added Pin To Net: NetName=PWM3 Pin=PWM_L-4
+Added Pin To Net: NetName=PWM3 Pin=SENSOR 2-2
+Added Net: Name=PWM3
+Added Pin To Net: NetName=PWM4 Pin=PWM_L-5
+Added Pin To Net: NetName=PWM4 Pin=SENSOR 3-2
+Added Net: Name=PWM4
+Added Pin To Net: NetName=PWM5 Pin=Buz1-2
+Added Pin To Net: NetName=PWM5 Pin=Buz1-2A
+Added Pin To Net: NetName=PWM5 Pin=PWM_L-6
+Added Net: Name=PWM5
+Added Pin To Net: NetName=PWM6 Pin=PWM_L-7
+Added Net: Name=PWM6
+Added Pin To Net: NetName=PWM7 Pin=PWM_L-8
+Added Net: Name=PWM7
+Added Pin To Net: NetName=PWM8 Pin=PWM_H-1
+Added Net: Name=PWM8
+Added Pin To Net: NetName=PWM9 Pin=PWM_H-2
+Added Net: Name=PWM9
+Added Pin To Net: NetName=PWM10 Pin=PWM_H-3
+Added Net: Name=PWM10
+Added Pin To Net: NetName=PWM11 Pin=PWM_H-4
+Added Net: Name=PWM11
+Added Pin To Net: NetName=PWM12 Pin=PWM_H-5
+Added Net: Name=PWM12
+Added Pin To Net: NetName=PWM13 Pin=PWM_H-6
+Added Net: Name=PWM13
+Added Pin To Net: NetName=RESET Pin=C_rest-2
+Added Pin To Net: NetName=RESET Pin=ICSP-5
+Added Pin To Net: NetName=RESET Pin=POWER-6
+Added Pin To Net: NetName=RESET Pin=R1-1
+Added Pin To Net: NetName=RESET Pin=S1-1
+Added Pin To Net: NetName=RESET Pin=S1-1
+Added Net: Name=RESET
+Added Pin To Net: NetName=RX0 Pin=PWM_L-1
+Added Net: Name=RX0
+Added Pin To Net: NetName=RX1 Pin=COMMS-3
+Added Net: Name=RX1
+Added Pin To Net: NetName=RX2 Pin=COMMS-5
+Added Net: Name=RX2
+Added Pin To Net: NetName=RX3 Pin=COMMS-7
+Added Net: Name=RX3
+Added Pin To Net: NetName=SCK Pin=ICSP-3
+Added Net: Name=SCK
+Added Pin To Net: NetName=SCL Pin=COMMS-1
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=COMMS-2
+Added Net: Name=SDA
+Added Pin To Net: NetName=TX0 Pin=PWM_L-2
+Added Net: Name=TX0
+Added Pin To Net: NetName=TX1 Pin=COMMS-4
+Added Net: Name=TX1
+Added Pin To Net: NetName=TX2 Pin=COMMS-6
+Added Net: Name=TX2
+Added Pin To Net: NetName=TX3 Pin=COMMS-8
+Added Net: Name=TX3
+Added Pin To Net: NetName=VBAT+ Pin=7809-1
+Added Pin To Net: NetName=VBAT+ Pin=C09_1-1
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-1
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-4
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-6
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-8
+Added Net: Name=VBAT+
+Added Pin To Net: NetName=VCC Pin=7805-3
+Added Pin To Net: NetName=VCC Pin=C05_2-1
+Added Pin To Net: NetName=VCC Pin=Keypad-9
+Added Pin To Net: NetName=VCC Pin=LCD-9
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=SENSOR1-1
+Added Pin To Net: NetName=VCC Pin=SENSOR 2-1
+Added Pin To Net: NetName=VCC Pin=SENSOR 3-1
+Added Net: Name=VCC
+Added Pin To Net: NetName=VIN Pin=7805-1
+Added Pin To Net: NetName=VIN Pin=7809-3
+Added Pin To Net: NetName=VIN Pin=C05_1-1
+Added Pin To Net: NetName=VIN Pin=C09_2-1
+Added Pin To Net: NetName=VIN Pin=POWER-1
+Added Net: Name=VIN
+Added Class: Name=SIRA
+Added Room: Name=SIRA

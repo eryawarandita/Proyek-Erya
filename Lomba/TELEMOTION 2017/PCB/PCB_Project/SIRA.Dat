@@ -1,0 +1,23 @@
+﻿Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~SIRA.PrjPcb|ReportField=ProjectFullPath~D:\ITB\URO\Proyek\PKM\Board\PCB_Project\SIRA.PrjPcb|ReportField=Title~Bill of Materials For Project [SIRA.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~42|ReportField=ReportTime~12:47:28 PM|ReportField=ReportDate~4/26/2017|ReportField=ReportDateTime~4/26/2017 12:47:28 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~4/26/2017|ReportField=CurrentTime~12:47:21 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\ITB\URO\Proyek\PKM\Board\PCB_Project\SIRA.SchDoc|ReportField=DocumentName~SIRA.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~4/26/2017|ReportField=Organization~|ReportField=ProjectName~SIRA.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~SIRA.PrjPcb|ReportField=DataSourceFullPath~D:\ITB\URO\Proyek\PKM\Board\PCB_Project\SIRA.PrjPcb
+7805||7805|78XX/79XX|7805/7809/7812/7905/7909/7912|1
+7809||7809|78XX/79XX|7805/7809/7812/7905/7909/7912|1
+AD_H||AD_H|Header 8x1 8.5mm|AD_H|1
+AD_L||AD_L|Header 8x1 8.5mm|AD_L|1
+cap 1uF/50V||C2, C12, C251, C351|cap 1uF/50V|cap 1uF/50V|4
+Communication||COMMS|Header 8x1 8.5mm|Communication|1
+cap 22/33uF||C_rest|cap 22/33uF|cap 22/33uF|1
+IO_36||DIGITAL|HEADER 36X 8MM|IO_36|1
+ICSP||ICSP|ICSP|ICSP|1
+Header 5X2|Header, 5-Pin, Dual row|Keypad|HDR2X5|Header 5X2|1
+Header Soket male 10 pin||LCD|Header Soket male 10 pin|Header Soket male 10 pin|1
+LED kecil||LED1, LED2, LED3|LED kecil|LED kecil|3
+Buzzer|Magnetic Transducer Buzzer|LS?|ABSM-1574|Buzzer|1
+NMOS-2|N-Channel Power MOSFET|NMOS 1, NMOS 2, NMOS 3|SFM-T3/A4.7V|NMOS-2|3
+Optoisolator1|4-Pin Phototransistor Optocoupler|optocoupler1, optocoupler2, optocoupler3|DIP-4|Optoisolator1|3
+POWER||POWER|Header 6x1 8.5mm|POWER|1
+PWM_H||PWM_H|Header 8x1 8.5mm|PWM_H|1
+PWM_L||PWM_L|Header 8x1 8.5mm|PWM_L|1
+Res1|Resistor|R1, R1, R1, R1, R1b, R2b, R3b, RN1, RN2, RN3|AXIAL-0.3|Res1|10
+pushbutton||S1|pushbutton|pushbutton|1
+Header 3|Header, 3-Pin|SENSOR1, SENSOR 2, SENSOR 3|HDR1X3|Header 3|3
+Terminal Blok 8 Kaki Besar|Terminal Blok 8 Kaki Besar|Terminal 8 kaki 1|TERMINAL 8 KAKI|Terminal Block 8 kaki|1

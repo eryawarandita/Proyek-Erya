@@ -1,0 +1,127 @@
+/* last edited : 15/02/2016 
+ * commit : optimized algorithm, default goertzel formula from library
+ */
+ 
+#include <Goertzel.h>
+#include <EEPROMex.h>
+#include <Statistic.h>
+ 
+// ===================== DEKLARASI VARIABEL =============================
+ 
+// goertzel constanta
+const float TARGET_FREQUENCY = 445;
+const float SAMPLING_FREQUENCY = 8900;
+const int N = 20;
+Goertzel goertzel = Goertzel(TARGET_FREQUENCY, N, SAMPLING_FREQUENCY);
+ 
+//EEPROM addres
+int addr=0;
+ 
+//Sensor Pins
+int pwm = 3;
+int sensor[6] = {A0,A5,A4,A1,A3,A2};
+ 
+// output pins
+int output[6] = {8,9,10,11,12,13};
+int calibrateButton = 2;
+ 
+//sensor data
+float THRESHOLD[6];
+float lref[6];
+float href[6];
+float magnitude[6];
+char data;
+ 
+Statistic stat;
+ 
+//=========================================
+//=========================== MAIN PROGRAM ==================================
+ 
+void setup() {    
+    Serial.begin(115200);
+ 
+    EEPROM.setMaxAllowedWrites(500);
+    
+    pinMode(pwm, OUTPUT);
+    pinMode(calibrateButton, INPUT_PULLUP);
+ 
+}
+ 
+void loop() {    
+   // sensor_running();
+    //Serial.write(data);
+    //read saved THRESHOLD data
+    EEPROM.readBlock(addr, THRESHOLD,6);
+  
+    // PWM
+    tone(pwm, TARGET_FREQUENCY); 
+    data = 0;
+    
+    //Sensor logic cd
+    for(int i=0; i<6; i++)
+    {
+      goertzel.sample(sensor[i]); //Will take n samples
+      magnitude[i] = goertzel.detect();  //check them for target_freq
+  
+      if(magnitude[i] > THRESHOLD[i])
+      {
+        data |= 1 << i;
+        //Serial.print("1");
+        digitalWrite(output[i],HIGH);
+      }
+      else
+      {
+        data |= 0 << i;
+        //Serial.print("0");
+        digitalWrite(output[i],LOW);
+      }
+  
+      //Serial.print(THRESHOLD[i]);
+      //Serial.print(magnitude[i]);
+      //Serial.print("\t");
+ 
+    }
+ 
+    //Serial.println();
+    /* ============= KALIBRASI ============== */ 
+ 
+    if(digitalRead(calibrateButton)== LOW)
+    {
+      for(int i=0; i<6; i++){
+        href[i] = THRESHOLD[i];
+        digitalWrite(output[i],HIGH);
+      }
+ 
+      do{
+        read_magnitude();
+        for(int i=0; i<6; i++){
+          if(magnitude[i] < href[i])        lref[i] = magnitude[i];
+          if(magnitude[i] > lref[i])        href[i] = magnitude[i];
+        }
+ 
+        //Serial.println("cek data");
+        delay(200);
+      }while( digitalRead(calibrateButton)!= LOW);
+ 
+      //Serial.println("simpan"); 
+      for(int i=0; i<6; i++){
+          THRESHOLD[i] = (href[i] + lref[i])/2;
+       }
+      
+       EEPROM.updateBlock(addr,THRESHOLD,6);
+ 
+       delay(200);
+    }
+    else{
+       Serial.write(data);
+    }  
+}  
+ 
+void read_magnitude(){
+     for(int i=0; i<6; i++)
+     {
+        goertzel.sample(sensor[i]); //Will take n samples
+        magnitude[i] = goertzel.detect();  //check them for target_freq
+     }
+}
+ 

@@ -1,0 +1,43 @@
+Added Component: Designator=C1(cap 10uF/16V)
+Added Component: Designator=C2(cap 10uF/16V)
+Added Component: Designator=JOYSTICK(JOY SOCKET)
+Added Component: Designator=LM1117(T03B)
+Added Component: Designator=PIN2(HDR2X5)
+Added Component: Designator=PIN(HDR1X6)
+Added Component: Designator=R470(AXIAL-0.3)
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=JOYSTICK-4
+Added Pin To Net: NetName=GND Pin=LM1117-1
+Added Pin To Net: NetName=GND Pin=PIN2-10
+Added Pin To Net: NetName=GND Pin=PIN-6
+Added Net: Name=GND
+Added Pin To Net: NetName=MISO Pin=JOYSTICK-1
+Added Pin To Net: NetName=MISO Pin=PIN2-9
+Added Pin To Net: NetName=MISO Pin=PIN-4
+Added Pin To Net: NetName=MISO Pin=R470-1
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=JOYSTICK-2
+Added Pin To Net: NetName=MOSI Pin=PIN2-1
+Added Pin To Net: NetName=MOSI Pin=PIN-1
+Added Net: Name=MOSI
+Added Pin To Net: NetName=SCK Pin=JOYSTICK-7
+Added Pin To Net: NetName=SCK Pin=PIN2-7
+Added Pin To Net: NetName=SCK Pin=PIN-3
+Added Net: Name=SCK
+Added Pin To Net: NetName=SS Pin=JOYSTICK-6
+Added Pin To Net: NetName=SS Pin=PIN2-3
+Added Pin To Net: NetName=SS Pin=PIN-2
+Added Net: Name=SS
+Added Pin To Net: NetName=V33 Pin=C2-1
+Added Pin To Net: NetName=V33 Pin=JOYSTICK-5
+Added Pin To Net: NetName=V33 Pin=LM1117-2
+Added Net: Name=V33
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=VCC Pin=LM1117-3
+Added Pin To Net: NetName=VCC Pin=PIN2-2
+Added Pin To Net: NetName=VCC Pin=PIN-5
+Added Pin To Net: NetName=VCC Pin=R470-2
+Added Net: Name=VCC
+Added Class: Name=PS2 CONECTOR
+Added Room: Name=PS2 CONECTOR

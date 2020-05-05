@@ -1,0 +1,101 @@
+Added Component: Designator=5V(LED sedang)
+Added Component: Designator=12V(LED sedang)
+Added Component: Designator=LED1(LED kecil)
+Added Component: Designator=LED2(LED kecil)
+Added Component: Designator=NMOS1(TO-220AB)
+Added Component: Designator=NMOS2(TO-220AB)
+Added Component: Designator=optocoupler1(DIP-4)
+Added Component: Designator=optocoupler2(DIP-4)
+Added Component: Designator=PInput(HDR2X5)
+Added Component: Designator=R1b(AXIAL-0.3)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R2b(AXIAL-0.3)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R5V(AXIAL-0.3)
+Added Component: Designator=R24V(AXIAL-0.4)
+Added Component: Designator=RN1(AXIAL-0.3)
+Added Component: Designator=RN2(AXIAL-0.3)
+Added Component: Designator=Solenoid Valve 1-2(TERMINAL 4 KAKI)
+Added Component: Designator=Terminal 4 kaki 1(TERMINAL 4 KAKI)
+Added Pin To Net: NetName=1 Pin=PInput-1
+Added Pin To Net: NetName=1 Pin=R1-1
+Added Pin To Net: NetName=1 Pin=R1b-2
+Added Net: Name=1
+Added Pin To Net: NetName=2 Pin=PInput-2
+Added Pin To Net: NetName=2 Pin=R2-1
+Added Pin To Net: NetName=2 Pin=R2b-2
+Added Net: Name=2
+Added Pin To Net: NetName=3 Pin=PInput-3
+Added Net: Name=3
+Added Pin To Net: NetName=4 Pin=PInput-4
+Added Net: Name=4
+Added Pin To Net: NetName=5 Pin=PInput-5
+Added Net: Name=5
+Added Pin To Net: NetName=6 Pin=PInput-6
+Added Net: Name=6
+Added Pin To Net: NetName=7 Pin=PInput-7
+Added Net: Name=7
+Added Pin To Net: NetName=8 Pin=PInput-8
+Added Net: Name=8
+Added Pin To Net: NetName=GND2 Pin=12V-2
+Added Pin To Net: NetName=GND2 Pin=NMOS1-3
+Added Pin To Net: NetName=GND2 Pin=NMOS2-3
+Added Pin To Net: NetName=GND2 Pin=optocoupler1-3
+Added Pin To Net: NetName=GND2 Pin=optocoupler2-3
+Added Pin To Net: NetName=GND2 Pin=Terminal 4 kaki 1-2
+Added Pin To Net: NetName=GND2 Pin=Terminal 4 kaki 1-4
+Added Net: Name=GND2
+Added Pin To Net: NetName=GND Pin=5V-2
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=optocoupler1-2
+Added Pin To Net: NetName=GND Pin=optocoupler2-2
+Added Pin To Net: NetName=GND Pin=PInput-10
+Added Net: Name=GND
+Added Pin To Net: NetName=Net5V_1 Pin=5V-1
+Added Pin To Net: NetName=Net5V_1 Pin=R5V-1
+Added Net: Name=Net5V_1
+Added Pin To Net: NetName=Net12V_1 Pin=12V-1
+Added Pin To Net: NetName=Net12V_1 Pin=R24V-1
+Added Net: Name=Net12V_1
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R1b-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R2b-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetNMOS1_1 Pin=NMOS1-1
+Added Pin To Net: NetName=NetNMOS1_1 Pin=RN1-2
+Added Net: Name=NetNMOS1_1
+Added Pin To Net: NetName=NetNMOS2_1 Pin=NMOS2-1
+Added Pin To Net: NetName=NetNMOS2_1 Pin=RN2-2
+Added Net: Name=NetNMOS2_1
+Added Pin To Net: NetName=Netoptocoupler1_1 Pin=optocoupler1-1
+Added Pin To Net: NetName=Netoptocoupler1_1 Pin=R1-2
+Added Net: Name=Netoptocoupler1_1
+Added Pin To Net: NetName=Netoptocoupler2_1 Pin=optocoupler2-1
+Added Pin To Net: NetName=Netoptocoupler2_1 Pin=R2-2
+Added Net: Name=Netoptocoupler2_1
+Added Pin To Net: NetName=NMOS1 Pin=optocoupler1-4
+Added Pin To Net: NetName=NMOS1 Pin=RN1-1
+Added Net: Name=NMOS1
+Added Pin To Net: NetName=NMOS2 Pin=optocoupler2-4
+Added Pin To Net: NetName=NMOS2 Pin=RN2-1
+Added Net: Name=NMOS2
+Added Pin To Net: NetName=SV1 Pin=NMOS1-2
+Added Pin To Net: NetName=SV1 Pin=Solenoid Valve 1-2-1
+Added Net: Name=SV1
+Added Pin To Net: NetName=SV2 Pin=NMOS2-2
+Added Pin To Net: NetName=SV2 Pin=Solenoid Valve 1-2-3
+Added Net: Name=SV2
+Added Pin To Net: NetName=VCC2 Pin=R24V-2
+Added Pin To Net: NetName=VCC2 Pin=Solenoid Valve 1-2-2
+Added Pin To Net: NetName=VCC2 Pin=Solenoid Valve 1-2-4
+Added Pin To Net: NetName=VCC2 Pin=Terminal 4 kaki 1-1
+Added Pin To Net: NetName=VCC2 Pin=Terminal 4 kaki 1-3
+Added Net: Name=VCC2
+Added Pin To Net: NetName=VCC Pin=PInput-9
+Added Pin To Net: NetName=VCC Pin=R5V-2
+Added Net: Name=VCC
+Added Class: Name=Valve
+Added Room: Name=Valve

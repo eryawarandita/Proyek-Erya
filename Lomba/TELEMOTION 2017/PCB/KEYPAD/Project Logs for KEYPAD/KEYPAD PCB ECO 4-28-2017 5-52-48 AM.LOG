@@ -1,0 +1,32 @@
+Added Component: Designator=Keypad(HDR1X8)
+Added Component: Designator=to board(HDR2X5)
+Added Pin To Net: NetName=GND Pin=to board-10
+Added Net: Name=GND
+Added Pin To Net: NetName=IO32 Pin=Keypad-1
+Added Pin To Net: NetName=IO32 Pin=to board-1
+Added Net: Name=IO32
+Added Pin To Net: NetName=IO33 Pin=Keypad-2
+Added Pin To Net: NetName=IO33 Pin=to board-2
+Added Net: Name=IO33
+Added Pin To Net: NetName=IO34 Pin=Keypad-3
+Added Pin To Net: NetName=IO34 Pin=to board-3
+Added Net: Name=IO34
+Added Pin To Net: NetName=IO35 Pin=Keypad-4
+Added Pin To Net: NetName=IO35 Pin=to board-4
+Added Net: Name=IO35
+Added Pin To Net: NetName=IO36 Pin=Keypad-5
+Added Pin To Net: NetName=IO36 Pin=to board-5
+Added Net: Name=IO36
+Added Pin To Net: NetName=IO37 Pin=Keypad-6
+Added Pin To Net: NetName=IO37 Pin=to board-6
+Added Net: Name=IO37
+Added Pin To Net: NetName=IO38 Pin=Keypad-7
+Added Pin To Net: NetName=IO38 Pin=to board-7
+Added Net: Name=IO38
+Added Pin To Net: NetName=IO39 Pin=Keypad-8
+Added Pin To Net: NetName=IO39 Pin=to board-8
+Added Net: Name=IO39
+Added Pin To Net: NetName=VCC Pin=to board-9
+Added Net: Name=VCC
+Added Class: Name=KEYPAD
+Added Room: Name=KEYPAD

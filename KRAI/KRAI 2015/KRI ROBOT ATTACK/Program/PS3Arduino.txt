@@ -1,0 +1,296 @@
+/*********************************************************************************************/
+/**                                                                                         **/
+/** PROGRAM KOMUNIKASI DATA JOYSTIK PS3                                                     **/
+/**                                                                                         **/
+/** Joystik PS3 -> Arduino -> STM32Nucleo                                                   **/
+/**                                                                                         **/
+/** Fanny Achmad Hindrarta                                                                  **/
+/** EL'12                                                                                   **/
+/**                                                                                         **/
+/** Last Update : 01 Februar1 2015, 20.30                                                   **/
+/*********************************************************************************************/
+ 
+#include <PS3BT.h>
+#include <usbhub.h>
+//#include <PS3USB.h>
+#include "Arduino.h"
+// Satisfy IDE, which only needs to see the include statment in the ino.
+#ifdef dobogusinclude
+#include <spi4teensy3.h>
+#endif
+ 
+ 
+USB Usb;
+ 
+// Bluetooth
+// You can create the instance of the class in two ways 
+BTD Btd(&Usb); // You have to create the Bluetooth Dongle instance like so
+//You can create the instance of the class in two ways 
+PS3BT PS3(&Btd); // This will just create the instance
+//PS3BT PS3(&Btd, 0x00, 0x15, 0x83, 0x3D, 0x0A, 0x57); // This will also store the bluetooth address - this can be obtained from the dongle when running the sketch
+/*
+// USB
+// You can create the instance of the class in two ways
+PS3USB PS3(&Usb); // This will just create the instance
+//PS3USB PS3(&Btd, 0x00, 0x15, 0x83, 0x3D, 0x0A, 0x57); // This will also store the bluetooth address - this can be obtained from the dongle when running the sketch
+*/
+ 
+boolean printAngle;
+uint8_t state = 0;
+ 
+// Deklarasi tombol
+boolean kiri_click=0, kanan_click=0, atas_click=0, bawah_click=0;
+boolean segitiga_click=0, lingkaran_click=0, kotak_click=0, silang_click=0;
+boolean L1_click=0, R1_click=0, L3_click=0, R3_click=0;
+boolean START_click=0, SELECT_click=0, PS_click=0;
+ 
+// Deklarasi variabel tombol analog
+unsigned char LX, LY, RX, RY, aL2, aR2;
+ 
+// Deklarasi varibel data yang dikirim
+unsigned char button;
+unsigned char RL;
+unsigned int button_click;
+unsigned int RL_click;
+ 
+void setup_joystik()
+{
+    while (!Serial) // Wait for serial port to connect - used on Leonardo, Teensy and other boards with built-in USB CDC serial connection
+        {
+                Serial.write(0x88);
+        Serial.write(0x09);
+        }
+    if (Usb.Init() == -1) {
+        //Serial.print(F("\r\nOSC did not start"));
+        while (1) //halt
+                {
+                         Serial.write(0x88);
+                 Serial.write(0x09);
+                }
+    }
+    //Serial.print(F("\r\nPS3 USB Library Started"));
+}
+ 
+/*********************************************************************************************/
+/**                                                                                         **/
+/** FUNGSI PENGIRIMAN DATA                                                                  **/
+/** -   Data yang akan dikirim adalah paket data 8-bit dengan urutan sebagai berikut        **/
+/** |------|------|--------|----|--------------|----------|----|----|----|----|----|----|   **/
+/** | 0x88 | 0x08 | button | RL | button_click | RL_click | R2 | L2 | RX | RY | LX | LY |   **/
+/** |------|------|--------|----|--------------|----------|----|----|----|----|----|----|   **/
+/**                                                                                         **/
+/*********************************************************************************************/
+ 
+void kirimdatajoystik()
+{
+    
+    Serial.write(0x88);
+    Serial.write(0x08);
+    Serial.write(button);
+    Serial.write(RL);
+    Serial.write(button_click);
+    Serial.write(RL_click);
+    Serial.write(aR2);
+    Serial.write(aL2);
+    Serial.write(RX);
+    Serial.write(RY);
+    Serial.write(LX);
+    Serial.write(LY);
+ 
+// Debug    
+ 
+/*
+    Serial.print(millis());
+    Serial.print("\t");
+    Serial.print(button);
+    Serial.print("\t");
+    Serial.print(RL);
+    Serial.print("\t");
+    Serial.print(button_click);
+    Serial.print("\t");
+    Serial.print(RL_click);
+    Serial.print("\t");
+    Serial.print(aR2);
+    Serial.print("\t");
+    Serial.print(aL2);
+    Serial.print("\t");
+    Serial.print(RX);
+    Serial.print("\t");
+    Serial.print(RY);
+    Serial.print("\t");
+    Serial.print(LX);
+    Serial.print("\t");
+    Serial.println(LY);
+*/  
+}
+ 
+/*****************************************************************************************/
+/** SETUP REGISTER dan INISIALISASI                                                     **/
+/** -   Setup Joystik                                                                   **/
+/** -   Baud Rate Serial 115200, 8-bit, 1 stop, 0 parity                                **/
+/*****************************************************************************************/
+ 
+void setup() {
+    Serial.begin(115200);
+ 
+    setup_joystik();
+}
+ 
+ 
+/*****************************************************************************************/
+/**                                                                                     **/
+/** FUNGSI PEMBACAAN DATA JOYSTIK                                                       **/
+/** -   Data dari Joystik dikirim melalui Bluetooth.                                    **/
+/**     Lihat Library "PS3BT.h"                                                         **/
+/** -   Data tombol dari joystik adalah data 1-bit. Pengiriman data melalui USART       **/
+/**     adalah 8-bit. Agar pengiriman data efisien, maka data 1-bit digabungkan         **/
+/**     agar terbentuk data 8-bit                                                       **/
+/** -   Penggabungan data segitiga, longkaran, silang, kotak, arah atas, arah kanan,    **/
+/**     arah bawah, arah kiri disimpan dalam variabel "button"                          **/
+/** -   Urutan data pada variabel "button" dan "button_click"                           **/
+/**     adalah sebagai berikut                                                          **/
+/**                                                                                     **/
+/**         |------|-------|-------|------|-------|--------|-----------|----------|     **/
+/** Bit Ke  |   7  |   6   |   5   |   4  |   3   |    2   |      1    |     0    |     **/
+/**         |------|-------|-------|------|-------|--------|-----------|----------|     **/
+/** Data    | kiri | bawah | kanan | atas | kotak | silang | lingkaran | segitiga |     **/
+/**         |------|-------|-------|------|-------|--------|-----------|----------|     **/
+/**                                                                                     **/
+/** -   Penggabungan data R1, R2, L1, L2, R3, L3, START, dan SELECT disimpan dalam      **/
+/**     variabel "RL"                                                                   **/
+/** -   Urutan data pada variabel "RL" dan "RL_click" adalah                            **/
+/**     sebagai berikut                                                                 **/
+/**                                                                                     **/
+/**         |----|--------|-------|----|----|----|----|                                 **/
+/** Bit Ke  |  6 |    5   |   4   |  3 |  2 |  1 |  0 |                                 **/
+/**         |----|--------|-------|----|----|----|----|                                 **/
+/** Data    | PS | SELECT | START | L3 | L1 | R3 | R1 |                                 **/
+/**         |----|--------|-------|----|----|----|----|                                 **/
+/**                                                                                     **/
+/*****************************************************************************************/
+ 
+void loop() {
+    button = 0;
+    RL = 0;
+        button_click=0;
+        RL_click=0;
+    Usb.Task();
+ 
+    // Pembacaan data joystik dilakukan jika PS3 tersambung ke Arduino
+    if (PS3.PS3Connected || PS3.PS3NavigationConnected) {
+        // Pembacaan dan penggabungan data segitiga, lingkaran, silang, kotak, atas, kanan, bawah, kiri
+        // Data bernilai '1' jika tombol ditekan
+        if(PS3.getButtonPress(TRIANGLE)){
+            button = button + (0x1 << 0);
+        }
+        if(PS3.getButtonPress(CIRCLE)){
+            button = button + (0x1 << 1);
+        }
+        if(PS3.getButtonPress(CROSS)){
+            button = button + (0x1 << 2);
+        }
+        if(PS3.getButtonPress(SQUARE)){
+            button = button + (0x1 << 3);
+        }
+        if(PS3.getButtonPress(UP)){
+            button = button + (0x1 << 4);
+        }
+        if(PS3.getButtonPress(RIGHT)){
+            button = button + (0x1 << 5);
+        }
+        if(PS3.getButtonPress(DOWN)){
+            button = button + (0x1 << 6);
+        }
+        if(PS3.getButtonPress(LEFT)){
+            button = button + (0x1 << 7);
+        }
+ 
+        // Pembacaan dan penggabungan data R1, R3, L1, L3, START, SELECT, dan PS
+        // Data bernilai '1' jika tombol ditekan
+        if(PS3.getButtonPress(R1)){
+            RL = RL + (0x1 << 0);
+        }
+        if(PS3.getButtonPress(R3)){
+            RL = RL + (0x1 << 1);
+        }
+        if(PS3.getButtonPress(L1)){
+            RL = RL + (0x1 << 2);
+        }
+        if(PS3.getButtonPress(L3)){
+            RL = RL + (0x1 << 3);
+        }
+        if(PS3.getButtonPress(START)){
+            RL = RL + (0x1 << 4);
+        }
+        if(PS3.getButtonPress(SELECT)){
+            RL = RL + (0x1 << 5);
+        }
+        if(PS3.getButtonPress(PS)){
+            RL = RL + (0x1 << 6);
+        }
+ 
+        // Pembacaan dan penggabungan data segitiga, lingkaran, silang, kotak, atas, kanan, bawah, kiri
+        // Data bernilai '1' hanya saat tombol pertama kali ditekan
+        if(PS3.getButtonClick(TRIANGLE)){
+            button_click = button_click + (0x1 << 0);
+        }
+        if(PS3.getButtonClick(CIRCLE)){
+            button_click = button_click + (0x1 << 1);
+        }
+        if(PS3.getButtonClick(CROSS)){
+            button_click = button_click + (0x1 << 2);
+        }
+        if(PS3.getButtonClick(SQUARE)){
+            button_click = button_click + (0x1 << 3);
+        }
+        if(PS3.getButtonClick(UP)){
+            button_click = button_click + (0x1 << 4);
+        }
+        if(PS3.getButtonClick(RIGHT)){
+            button_click = button_click + (0x1 << 5);
+        }
+        if(PS3.getButtonClick(DOWN)){
+            button_click = button_click + (0x1 << 6);
+        }
+        if(PS3.getButtonClick(LEFT)){
+            button_click = button_click + (0x1 << 7);
+        }
+ 
+        if(PS3.getButtonClick(R1)){
+            RL_click = RL_click + (0x1 << 0);
+        }
+        if(PS3.getButtonClick(R3)){
+            RL_click = RL_click + (0x1 << 1);
+        }
+        if(PS3.getButtonClick(L1)){
+            RL_click = RL_click + (0x1 << 2);
+        }
+        if(PS3.getButtonClick(L3)){
+            RL_click = RL_click + (0x1 << 3);
+        }
+        if(PS3.getButtonClick(START)){
+            RL_click = RL_click + (0x1 << 4);
+        }
+        if(PS3.getButtonClick(SELECT)){
+            RL_click = RL_click + (0x1 << 5);
+        }
+        if(PS3.getButtonClick(PS)){
+            RL_click = RL_click + (0x1 << 6);
+        }
+ 
+        // Tombol Analog
+        LX = PS3.getAnalogHat(LeftHatX);
+        LY = PS3.getAnalogHat(LeftHatY);
+        RX = PS3.getAnalogHat(RightHatX);
+        RY = PS3.getAnalogHat(RightHatY);
+        
+        aL2 = PS3.getAnalogButton(L2);
+        aR2 = PS3.getAnalogButton(R2);
+            
+                kirimdatajoystik();
+    } else {
+        // PS3 Disconnected
+        Serial.write(0x88);
+        Serial.write(0x09);
+    }
+    delay(3);

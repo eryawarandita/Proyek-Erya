@@ -1,0 +1,180 @@
+Added Component: Designator=Keypad(HDR2X5)
+Added Component: Designator=LS?(ABSM-1574)
+Added Component: Designator=optocoupler1(DIP-4)
+Added Component: Designator=optocoupler2(DIP-4)
+Added Component: Designator=optocoupler3(DIP-4)
+Added Component: Designator=R1b(AXIAL-0.3)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R1(AXIAL-0.3)
+Added Component: Designator=R2b(AXIAL-0.3)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R3b(AXIAL-0.3)
+Added Component: Designator=R3(AXIAL-0.3)
+Added Component: Designator=RN1(AXIAL-0.3)
+Added Component: Designator=RN2(AXIAL-0.3)
+Added Component: Designator=RN3(AXIAL-0.3)
+Added Component: Designator=SENSOR1(HDR1X3)
+Added Component: Designator=SENSOR 2(HDR1X3)
+Added Component: Designator=SENSOR 3(HDR1X3)
+Added Component: Designator=Terminal 8 kaki 1(TERMINAL 8 KAKI)
+Added Net: Name=3V3
+Added Net: Name=5V
+Added Net: Name=AD0
+Added Net: Name=AD1
+Added Net: Name=AD2
+Added Net: Name=AD3
+Added Net: Name=AD4
+Added Net: Name=AD5
+Added Net: Name=AD6
+Added Net: Name=AD7
+Added Net: Name=AD8
+Added Net: Name=AD9
+Added Net: Name=AD10
+Added Net: Name=AD11
+Added Net: Name=AD12
+Added Net: Name=AD13
+Added Net: Name=AD14
+Added Net: Name=AD15
+Added Net: Name=AREF
+Added Pin To Net: NetName=GND2 Pin=optocoupler1-3
+Added Pin To Net: NetName=GND2 Pin=optocoupler2-3
+Added Pin To Net: NetName=GND2 Pin=optocoupler3-3
+Added Net: Name=GND2
+Added Pin To Net: NetName=GND Pin=Keypad-10
+Added Pin To Net: NetName=GND Pin=LS?-1
+Added Pin To Net: NetName=GND Pin=LS?-1A
+Added Pin To Net: NetName=GND Pin=optocoupler1-2
+Added Pin To Net: NetName=GND Pin=optocoupler2-2
+Added Pin To Net: NetName=GND Pin=optocoupler3-2
+Added Pin To Net: NetName=GND Pin=SENSOR1-3
+Added Pin To Net: NetName=GND Pin=SENSOR 2-3
+Added Pin To Net: NetName=GND Pin=SENSOR 3-3
+Added Pin To Net: NetName=GND Pin=Terminal 8 kaki 1-2
+Added Net: Name=GND
+Added Net: Name=IO22
+Added Net: Name=IO23
+Added Net: Name=IO24
+Added Net: Name=IO25
+Added Net: Name=IO26
+Added Net: Name=IO27
+Added Net: Name=IO28
+Added Net: Name=IO29
+Added Net: Name=IO30
+Added Net: Name=IO31
+Added Pin To Net: NetName=IO32 Pin=Keypad-1
+Added Net: Name=IO32
+Added Pin To Net: NetName=IO33 Pin=Keypad-2
+Added Net: Name=IO33
+Added Pin To Net: NetName=IO34 Pin=Keypad-3
+Added Net: Name=IO34
+Added Pin To Net: NetName=IO35 Pin=Keypad-4
+Added Net: Name=IO35
+Added Pin To Net: NetName=IO36 Pin=Keypad-5
+Added Net: Name=IO36
+Added Pin To Net: NetName=IO37 Pin=Keypad-6
+Added Net: Name=IO37
+Added Pin To Net: NetName=IO38 Pin=Keypad-7
+Added Net: Name=IO38
+Added Pin To Net: NetName=IO39 Pin=Keypad-8
+Added Net: Name=IO39
+Added Net: Name=IO40
+Added Net: Name=IO41
+Added Net: Name=IO42
+Added Net: Name=IO43
+Added Net: Name=IO44
+Added Net: Name=IO45
+Added Net: Name=IO46
+Added Net: Name=IO47
+Added Net: Name=IO48
+Added Net: Name=IO49
+Added Net: Name=IO50
+Added Pin To Net: NetName=IO51 Pin=R3-1
+Added Pin To Net: NetName=IO51 Pin=R3b-2
+Added Net: Name=IO51
+Added Pin To Net: NetName=IO52 Pin=R1-1
+Added Pin To Net: NetName=IO52 Pin=R1b-2
+Added Net: Name=IO52
+Added Pin To Net: NetName=IO53 Pin=R2-1
+Added Pin To Net: NetName=IO53 Pin=R2b-2
+Added Net: Name=IO53
+Added Net: Name=MISO
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetLED1_1 Pin=R1b-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=R2b-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED3_1 Pin=R3b-1
+Added Net: Name=NetLED3_1
+Added Pin To Net: NetName=NetNMOS 1_1 Pin=RN1-2
+Added Net: Name=NetNMOS 1_1
+Added Pin To Net: NetName=NetNMOS 2_1 Pin=RN2-2
+Added Net: Name=NetNMOS 2_1
+Added Pin To Net: NetName=NetNMOS 3_1 Pin=RN3-2
+Added Net: Name=NetNMOS 3_1
+Added Pin To Net: NetName=Netoptocoupler1_1 Pin=optocoupler1-1
+Added Pin To Net: NetName=Netoptocoupler1_1 Pin=R1-2
+Added Net: Name=Netoptocoupler1_1
+Added Pin To Net: NetName=Netoptocoupler2_1 Pin=optocoupler2-1
+Added Pin To Net: NetName=Netoptocoupler2_1 Pin=R2-2
+Added Net: Name=Netoptocoupler2_1
+Added Pin To Net: NetName=Netoptocoupler3_1 Pin=optocoupler3-1
+Added Pin To Net: NetName=Netoptocoupler3_1 Pin=R3-2
+Added Net: Name=Netoptocoupler3_1
+Added Pin To Net: NetName=NMOS1 Pin=optocoupler1-4
+Added Pin To Net: NetName=NMOS1 Pin=optocoupler3-4
+Added Pin To Net: NetName=NMOS1 Pin=RN1-1
+Added Net: Name=NMOS1
+Added Pin To Net: NetName=NMOS2 Pin=optocoupler2-4
+Added Pin To Net: NetName=NMOS2 Pin=RN2-1
+Added Net: Name=NMOS2
+Added Pin To Net: NetName=OUT1 Pin=Terminal 8 kaki 1-3
+Added Net: Name=OUT1
+Added Pin To Net: NetName=OUT2 Pin=Terminal 8 kaki 1-5
+Added Net: Name=OUT2
+Added Pin To Net: NetName=OUT3 Pin=Terminal 8 kaki 1-7
+Added Net: Name=OUT3
+Added Pin To Net: NetName=PWM2 Pin=SENSOR1-2
+Added Net: Name=PWM2
+Added Pin To Net: NetName=PWM3 Pin=SENSOR 2-2
+Added Net: Name=PWM3
+Added Pin To Net: NetName=PWM4 Pin=SENSOR 3-2
+Added Net: Name=PWM4
+Added Pin To Net: NetName=PWM5 Pin=LS?-2
+Added Pin To Net: NetName=PWM5 Pin=LS?-2A
+Added Net: Name=PWM5
+Added Net: Name=PWM6
+Added Pin To Net: NetName=PWM7 Pin=RN3-1
+Added Net: Name=PWM7
+Added Net: Name=PWM8
+Added Net: Name=PWM9
+Added Net: Name=PWM10
+Added Net: Name=PWM11
+Added Net: Name=PWM12
+Added Net: Name=PWM13
+Added Pin To Net: NetName=RESET Pin=R1-1
+Added Net: Name=RESET
+Added Net: Name=RX0
+Added Net: Name=RX1
+Added Net: Name=RX2
+Added Net: Name=RX3
+Added Net: Name=SCK
+Added Net: Name=SCL
+Added Net: Name=SDA
+Added Net: Name=TX0
+Added Net: Name=TX1
+Added Net: Name=TX2
+Added Net: Name=TX3
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-1
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-4
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-6
+Added Pin To Net: NetName=VBAT+ Pin=Terminal 8 kaki 1-8
+Added Net: Name=VBAT+
+Added Pin To Net: NetName=VCC Pin=Keypad-9
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=SENSOR1-1
+Added Pin To Net: NetName=VCC Pin=SENSOR 2-1
+Added Pin To Net: NetName=VCC Pin=SENSOR 3-1
+Added Net: Name=VCC
+Added Net: Name=VIN
+Added Class: Name=SIRA
+Added Room: Name=SIRA
